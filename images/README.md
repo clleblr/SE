@@ -30,8 +30,6 @@ Each photo was resized to ~1700px wide and compressed for fast loading.
 - `coaching-sport-basketball.jpg` — Basketball card (jump shot)
 - `coaching-sport-athletics.jpg` — Athletics card (track running)
 - `coaching-sport-cricket.jpg` — Cricket card (batting)
-- `coaching-sport-tabletennis.jpg` — Table Tennis card ⚠️ SUBSTITUTE — no table-tennis
-  photo exists in the set; a general training shot is used. Replace when you have one.
 - `coaching-camp-annual.jpg` — Annual camp (young cricketers)
 - `coaching-camp-summer.jpg` — Summer camp (kids basketball drill)
 - `coaching-camp-little.jpg` — Little Athletes (young children)
