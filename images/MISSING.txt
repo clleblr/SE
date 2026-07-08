@@ -14,7 +14,7 @@ What to do:
   - See README.md in this folder for the full list, where each appears,
     the recommended aspect ratio, and the original source file it maps to.
 
-The following 43 files are placeholders and should be replaced:
+The following 42 files are placeholders and should be replaced:
 
   home-hero.jpg
   home-schools.jpg
@@ -33,7 +33,6 @@ The following 43 files are placeholders and should be replaced:
   coaching-sport-basketball.jpg
   coaching-sport-athletics.jpg
   coaching-sport-cricket.jpg
-  coaching-sport-tabletennis.jpg
   coaching-camp-annual.jpg
   coaching-camp-summer.jpg
   coaching-camp-little.jpg

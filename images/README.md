@@ -35,7 +35,6 @@ updates everywhere that slot appears — no code editing needed.
 | `coaching-sport-basketball.jpg` | Coaching & Camps — Basketball card | 4:5 · 800×1000 | `what we do/what-we-do2.png` |
 | `coaching-sport-athletics.jpg` | Coaching & Camps — Athletics card | 4:5 · 800×1000 | `what we do/what-we-do3.png` |
 | `coaching-sport-cricket.jpg` | Coaching & Camps — Cricket card | 4:5 · 800×1000 | `what we do/what-we-do4.png` |
-| `coaching-sport-tabletennis.jpg` | Coaching & Camps — Table Tennis card | 4:5 · 800×1000 | `home/sportsskill.jpg` |
 | `coaching-camp-annual.jpg` | Coaching & Camps — Annual camp card | 16:10 · 1600×1000 | `home/camps.jpg` |
 | `coaching-camp-summer.jpg` | Coaching & Camps — Summer camp card | 16:10 · 1600×1000 | `home/sportsskill.jpg` |
 | `coaching-camp-little.jpg` | Coaching & Camps — Little Athletes card | 16:10 · 1600×1000 | `home/about-us.jpg` |
