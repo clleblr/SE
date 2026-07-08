@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="assets/image-slot.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: #E7E6DF; font-family: 'Figtree', system-ui, sans-serif; color: #262261; -webkit-font-smoothing: antialiased; }
+  a { color: #262261; text-decoration: none; }
+  a:hover { color: #4B45A8; }
+  ::selection { background: #FFCB05; color: #262261; }
+</style>
+</helmet>
+
+<div data-screen-label="About Us" style="max-width:1280px;margin:0 auto;background:#F6F5F0;box-shadow:0 30px 120px rgba(23,20,59,0.18);overflow:hidden;">
+
+  <!-- NAV -->
+  <div style="background:#17143B;padding:18px 48px;display:flex;align-items:center;justify-content:space-between;">
+    <div style="background:#fff;border-radius:9px;padding:7px 12px;display:inline-flex;"><img src="assets/sporting-edge-logo.png" style="height:30px;display:block;" alt="Sporting Edge" /></div>
+    <div style="display:flex;gap:30px;align-items:center;">
+      <span style="color:#fff;font-size:15px;font-weight:600;border-bottom:2px solid #FFCB05;padding-bottom:3px;">About</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">What We Do</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">Programs</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">Why Us</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">Gallery</span>
+      <span style="background:#FFCB05;color:#262261;font-family:'Archivo';font-weight:700;font-size:14px;padding:11px 20px;border-radius:9px;">Contact Us</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="position:relative;min-height:420px;display:flex;align-items:center;">
+    <div style="position:absolute;inset:0;"><image-slot id="ab-hero" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/about-us-sporting-edge.jpg" placeholder="About hero"></image-slot></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg, rgba(23,20,59,0.94) 0%, rgba(23,20,59,0.78) 46%, rgba(23,20,59,0.2) 100%);pointer-events:none;"></div>
+    <div style="position:absolute;top:-120px;right:-100px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle at 40% 40%, rgba(255,203,5,0.28), rgba(255,203,5,0) 70%);pointer-events:none;"></div>
+    <div style="position:relative;padding:58px 52px;max-width:640px;">
+      <div style="display:flex;gap:8px;align-items:center;font-size:13px;font-weight:500;color:rgba(255,255,255,0.6);margin-bottom:18px;"><span>Home</span><span style="color:#FFCB05;">/</span><span style="color:#fff;">About Us</span></div>
+      <div style="display:inline-block;background:rgba(255,203,5,0.16);border:1px solid rgba(255,203,5,0.45);color:#FFCB05;font-weight:600;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;padding:7px 14px;border-radius:999px;">Bangalore · Sports education</div>
+      <h1 style="font-family:'Archivo';font-weight:900;font-size:58px;line-height:0.98;letter-spacing:-0.025em;color:#fff;margin:20px 0 0;">Sport deserves the same structure as academics</h1>
+      <p style="font-size:19px;line-height:1.6;color:rgba(255,255,255,0.82);margin:20px 0 0;max-width:50ch;">We build evidence-based sports programs for schools and athletes across India.</p>
+    </div>
+  </div>
+
+  <!-- WHO WE ARE -->
+  <div style="padding:74px 52px 64px;display:grid;grid-template-columns:1.1fr 0.9fr;gap:52px;align-items:center;">
+    <div>
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#8A6D00;display:flex;align-items:center;gap:12px;"><span style="width:26px;height:3px;background:#FFCB05;display:inline-block;"></span>Who we are</div>
+      <h2 style="font-family:'Archivo';font-weight:800;font-size:38px;line-height:1.05;letter-spacing:-0.02em;margin:16px 0 0;">A team built for structured sport</h2>
+      <p style="font-size:17px;line-height:1.65;color:#5A5870;margin:20px 0 0;">Sporting Edge is a leading sports training organization based in Bangalore. With a strong foundation in evidence-based sports pedagogy, we design and deliver comprehensive sports programs for schools, colleges and educational institutions across India.</p>
+      <p style="font-size:17px;line-height:1.65;color:#5A5870;margin:16px 0 0;">Our team brings together certified coaches, wellness practitioners, physical-education specialists and operational experts — combining structured curriculum design, modern coaching methods and performance tracking to inspire lifelong fitness and nurture athletic excellence.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;">
+        <span style="background:#E7E6F2;color:#262261;font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px;">Certified coaches</span>
+        <span style="background:#E7E6F2;color:#262261;font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px;">Wellness practitioners</span>
+        <span style="background:#E7E6F2;color:#262261;font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px;">PE specialists</span>
+        <span style="background:#E7E6F2;color:#262261;font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px;">Operations experts</span>
+      </div>
+    </div>
+    <div style="position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/5;"><image-slot id="ab-who" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/about/about-philosophy.jpg" placeholder="Our team"></image-slot></div>
+  </div>
+
+  <!-- VISION / MISSION -->
+  <div style="padding:0 52px 70px;display:grid;grid-template-columns:1fr 1fr;gap:22px;">
+    <div style="background:#262261;color:#fff;border-radius:22px;padding:44px 46px;">
+      <div style="font-family:'Archivo';font-weight:900;font-size:16px;letter-spacing:0.14em;text-transform:uppercase;color:#FFCB05;">Vision</div>
+      <p style="font-family:'Archivo';font-weight:700;font-size:26px;line-height:1.25;margin:18px 0 0;">To help every child develop strength, confidence and discipline through well-designed sports education.</p>
+    </div>
+    <div style="background:#FFCB05;color:#262261;border-radius:22px;padding:44px 46px;">
+      <div style="font-family:'Archivo';font-weight:900;font-size:16px;letter-spacing:0.14em;text-transform:uppercase;color:#8A6D00;">Mission</div>
+      <p style="font-family:'Archivo';font-weight:700;font-size:26px;line-height:1.25;margin:18px 0 0;">To deliver structured curriculum and focused coaching that build physical literacy, skill, character and lifelong engagement with movement.</p>
+    </div>
+  </div>
+
+  <!-- APPROACH -->
+  <div style="background:#EDECE4;padding:74px 52px;">
+    <div style="text-align:center;max-width:50ch;margin:0 auto 44px;">
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#8A6D00;">Our approach</div>
+      <h2 style="font-family:'Archivo';font-weight:800;font-size:40px;line-height:1.05;letter-spacing:-0.02em;margin:14px 0 0;">The difference that performs</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px;">
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:20px;padding:38px 40px;">
+        <div style="font-family:'Archivo';font-weight:800;font-size:15px;letter-spacing:0.1em;text-transform:uppercase;color:#262261;margin-bottom:22px;">Coaching philosophy</div>
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:#33314A;border-bottom:1px solid rgba(38,34,97,0.08);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">›</span>Physical literacy before competition</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:#33314A;border-bottom:1px solid rgba(38,34,97,0.08);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">›</span>Progression across years, not sessions</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:#33314A;border-bottom:1px solid rgba(38,34,97,0.08);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">›</span>Training with purpose</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:#33314A;border-bottom:1px solid rgba(38,34,97,0.08);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">›</span>Safe and supportive environments</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:#33314A;"><span style="color:#FFCB05;font-weight:800;">›</span>Assessment-informed coaching</div>
+        </div>
+      </div>
+      <div style="background:#17143B;color:#fff;border-radius:20px;padding:38px 40px;">
+        <div style="font-family:'Archivo';font-weight:800;font-size:15px;letter-spacing:0.1em;text-transform:uppercase;color:#FFCB05;margin-bottom:22px;">The Sporting Edge difference</div>
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:rgba(255,255,255,0.85);border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">✓</span>Structured programs tailored for age &amp; ability</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:rgba(255,255,255,0.85);border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">✓</span>Highly trained coaches</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:rgba(255,255,255,0.85);border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">✓</span>End-to-end operational support</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:rgba(255,255,255,0.85);border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:14px;"><span style="color:#FFCB05;font-weight:800;">✓</span>Regular assessments &amp; progress portfolios</div>
+          <div style="display:flex;gap:12px;font-size:16px;line-height:1.45;color:rgba(255,255,255,0.85);"><span style="color:#FFCB05;font-weight:800;">✓</span>Open for all children</div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:32px;">
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#8A6D00;margin-bottom:14px;">Sports we cover</div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;">
+        <span style="background:#fff;border:1px solid rgba(38,34,97,0.12);font-family:'Archivo';font-weight:700;font-size:16px;color:#262261;padding:12px 24px;border-radius:12px;">Football</span>
+        <span style="background:#fff;border:1px solid rgba(38,34,97,0.12);font-family:'Archivo';font-weight:700;font-size:16px;color:#262261;padding:12px 24px;border-radius:12px;">Basketball</span>
+        <span style="background:#fff;border:1px solid rgba(38,34,97,0.12);font-family:'Archivo';font-weight:700;font-size:16px;color:#262261;padding:12px 24px;border-radius:12px;">Athletics</span>
+        <span style="background:#fff;border:1px solid rgba(38,34,97,0.12);font-family:'Archivo';font-weight:700;font-size:16px;color:#262261;padding:12px 24px;border-radius:12px;">Cricket</span>
+        <span style="background:#fff;border:1px solid rgba(38,34,97,0.12);font-family:'Archivo';font-weight:700;font-size:16px;color:#262261;padding:12px 24px;border-radius:12px;">Volleyball</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div style="background:#FFCB05;padding:56px 52px;display:flex;align-items:center;justify-content:space-between;gap:36px;flex-wrap:wrap;">
+    <div>
+      <div style="font-family:'Archivo';font-weight:900;font-size:34px;line-height:1.05;color:#262261;">Let's build something lasting for your athletes.</div>
+      <p style="font-size:17px;color:#5B4A00;margin:10px 0 0;">Partner with us, or enroll your child today.</p>
+    </div>
+    <span style="background:#262261;color:#fff;font-family:'Archivo';font-weight:700;font-size:17px;padding:17px 34px;border-radius:11px;white-space:nowrap;">Contact Us →</span>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#17143B;color:rgba(255,255,255,0.7);padding:52px 52px 40px;">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,0.12);">
+      <div>
+        <div style="background:#fff;border-radius:9px;padding:8px 12px;display:inline-flex;margin-bottom:16px;"><img src="assets/sporting-edge-logo.png" style="height:30px;display:block;" alt="logo" /></div>
+        <p style="font-size:14px;line-height:1.6;max-width:36ch;margin:0;">Vidyaniketan Public School, Ullal Main Road, Jnananjyothinagar, Bengaluru — 560 056</p>
+      </div>
+      <div>
+        <div style="font-family:'Archivo';font-weight:700;font-size:15px;color:#fff;margin-bottom:14px;">Quick Links</div>
+        <div style="display:flex;flex-direction:column;gap:9px;font-size:14px;"><span>Coaching &amp; Camps</span><span>Programs for Schools</span><span>Why Choose Us</span><span>Gallery</span></div>
+      </div>
+      <div>
+        <div style="font-family:'Archivo';font-weight:700;font-size:15px;color:#fff;margin-bottom:14px;">Get in Touch</div>
+        <div style="display:flex;flex-direction:column;gap:9px;font-size:14px;"><span>+91 91087 56369</span><span>+91 63603 94326</span><span>info@sportingedge.in</span></div>
+      </div>
+    </div>
+    <div style="padding-top:22px;font-size:13px;color:rgba(255,255,255,0.45);">Copyright © 2026 Sporting Edge. All Rights Reserved.</div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="assets/image-slot.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: #E7E6DF; font-family: 'Figtree', system-ui, sans-serif; color: #262261; -webkit-font-smoothing: antialiased; }
+  a { color: #262261; text-decoration: none; }
+  a:hover { color: #4B45A8; }
+  ::selection { background: #FFCB05; color: #262261; }
+</style>
+</helmet>
+
+<div data-screen-label="Coaching & Camps for Parents" style="max-width:1280px;margin:0 auto;background:#F6F5F0;box-shadow:0 30px 120px rgba(23,20,59,0.18);overflow:hidden;">
+
+  <!-- NAV -->
+  <div style="background:#17143B;padding:18px 48px;display:flex;align-items:center;justify-content:space-between;">
+    <div style="background:#fff;border-radius:9px;padding:7px 12px;display:inline-flex;"><img src="assets/sporting-edge-logo.png" style="height:30px;display:block;" alt="Sporting Edge" /></div>
+    <div style="display:flex;gap:30px;align-items:center;">
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">About</span>
+      <span style="color:#fff;font-size:15px;font-weight:600;border-bottom:2px solid #FFCB05;padding-bottom:3px;">What We Do</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">Programs</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">Why Us</span>
+      <span style="color:rgba(255,255,255,0.82);font-size:15px;font-weight:500;">Gallery</span>
+      <span style="background:#FFCB05;color:#262261;font-family:'Archivo';font-weight:700;font-size:14px;padding:11px 20px;border-radius:9px;">Contact Us</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="position:relative;min-height:420px;display:flex;align-items:center;">
+    <div style="position:absolute;inset:0;"><image-slot id="cc-hero" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/sportscoach.jpg" placeholder="Hero: young athlete training"></image-slot></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg, rgba(23,20,59,0.94) 0%, rgba(23,20,59,0.8) 44%, rgba(23,20,59,0.25) 100%);pointer-events:none;"></div>
+    <div style="position:absolute;top:-120px;right:-100px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle at 40% 40%, rgba(255,203,5,0.28), rgba(255,203,5,0) 70%);pointer-events:none;"></div>
+    <div style="position:relative;padding:58px 52px;max-width:660px;">
+      <div style="display:flex;gap:8px;align-items:center;font-size:13px;font-weight:500;color:rgba(255,255,255,0.6);margin-bottom:18px;">
+        <span>Home</span><span style="color:#FFCB05;">/</span><span>What We Do</span><span style="color:#FFCB05;">/</span><span style="color:#fff;">Coaching &amp; Camps</span>
+      </div>
+      <div style="display:inline-block;background:rgba(255,203,5,0.16);border:1px solid rgba(255,203,5,0.45);color:#FFCB05;font-weight:600;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;padding:7px 14px;border-radius:999px;">For Parents &amp; Athletes</div>
+      <h1 style="font-family:'Archivo';font-weight:900;font-size:56px;line-height:0.98;letter-spacing:-0.025em;color:#fff;margin:20px 0 0;">Coaching &amp; camps for young athletes</h1>
+      <p style="font-size:19px;line-height:1.6;color:rgba(255,255,255,0.82);margin:20px 0 0;max-width:50ch;">Sport-specific pathways that build skill, confidence and discipline — from a child's very first practice to lifelong excellence.</p>
+      <div style="display:flex;gap:14px;margin-top:32px;">
+        <span style="background:#FFCB05;color:#262261;font-family:'Archivo';font-weight:700;font-size:16px;padding:15px 30px;border-radius:10px;">Enroll Your Child</span>
+        <span style="background:rgba(255,255,255,0.1);color:#fff;border:1.5px solid rgba(255,255,255,0.4);font-family:'Archivo';font-weight:700;font-size:16px;padding:13px 28px;border-radius:10px;">Book a Trial →</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- COACHING PATHWAYS -->
+  <div style="padding:72px 52px 60px;">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-bottom:38px;">
+      <div>
+        <div style="font-size:13px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#8A6D00;display:flex;align-items:center;gap:12px;"><span style="width:26px;height:3px;background:#FFCB05;display:inline-block;"></span>Coaching pathways</div>
+        <h2 style="font-family:'Archivo';font-weight:800;font-size:40px;line-height:1.05;letter-spacing:-0.02em;margin:16px 0 0;">Sports we coach</h2>
+      </div>
+      <p style="font-size:16px;line-height:1.6;color:#5A5870;max-width:44ch;margin:0;">Each sport follows a structured, level-based pathway — so progress is visible, not guessed at.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px;">
+      <!-- card -->
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:16px;overflow:hidden;">
+        <div style="position:relative;aspect-ratio:4/5;"><image-slot id="sp-football" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/what%20we%20do/what-we-do1.png" placeholder="Football"></image-slot><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,20,59,0) 45%,rgba(23,20,59,0.85) 100%);pointer-events:none;"></div><div style="position:absolute;left:16px;bottom:14px;font-family:'Archivo';font-weight:800;font-size:19px;color:#fff;pointer-events:none;">Football</div></div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:16px;overflow:hidden;">
+        <div style="position:relative;aspect-ratio:4/5;"><image-slot id="sp-basket" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/what%20we%20do/what-we-do2.png" placeholder="Basketball"></image-slot><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,20,59,0) 45%,rgba(23,20,59,0.85) 100%);pointer-events:none;"></div><div style="position:absolute;left:16px;bottom:14px;font-family:'Archivo';font-weight:800;font-size:19px;color:#fff;pointer-events:none;">Basketball</div></div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:16px;overflow:hidden;">
+        <div style="position:relative;aspect-ratio:4/5;"><image-slot id="sp-athletics" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/what%20we%20do/what-we-do3.png" placeholder="Athletics"></image-slot><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,20,59,0) 45%,rgba(23,20,59,0.85) 100%);pointer-events:none;"></div><div style="position:absolute;left:16px;bottom:14px;font-family:'Archivo';font-weight:800;font-size:19px;color:#fff;pointer-events:none;">Athletics</div></div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:16px;overflow:hidden;">
+        <div style="position:relative;aspect-ratio:4/5;"><image-slot id="sp-cricket" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/what%20we%20do/what-we-do4.png" placeholder="Cricket"></image-slot><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,20,59,0) 45%,rgba(23,20,59,0.85) 100%);pointer-events:none;"></div><div style="position:absolute;left:16px;bottom:14px;font-family:'Archivo';font-weight:800;font-size:19px;color:#fff;pointer-events:none;">Cricket</div></div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:16px;overflow:hidden;">
+        <div style="position:relative;aspect-ratio:4/5;"><image-slot id="sp-tt" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/sportsskill.jpg" placeholder="Table Tennis"></image-slot><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,20,59,0) 45%,rgba(23,20,59,0.85) 100%);pointer-events:none;"></div><div style="position:absolute;left:16px;bottom:14px;font-family:'Archivo';font-weight:800;font-size:19px;color:#fff;pointer-events:none;">Table Tennis</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OUTCOMES -->
+  <div style="background:#262261;color:#fff;padding:70px 52px;">
+    <div style="display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:center;">
+      <div>
+        <div style="font-size:13px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#FFCB05;display:flex;align-items:center;gap:12px;"><span style="width:26px;height:3px;background:#FFCB05;display:inline-block;"></span>What your child gains</div>
+        <h2 style="font-family:'Archivo';font-weight:800;font-size:40px;line-height:1.05;letter-spacing:-0.02em;margin:16px 0 0;">Outcomes we coach toward</h2>
+        <p style="font-size:17px;line-height:1.6;color:rgba(255,255,255,0.7);margin:18px 0 0;">Every session ladders up to five measurable outcomes — reviewed with parents at each milestone.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:22px 24px;"><div style="font-family:'Archivo';font-weight:900;font-size:22px;color:#FFCB05;">01</div><div style="font-family:'Archivo';font-weight:700;font-size:17px;margin-top:8px;">Technical skill development</div></div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:22px 24px;"><div style="font-family:'Archivo';font-weight:900;font-size:22px;color:#FFCB05;">02</div><div style="font-family:'Archivo';font-weight:700;font-size:17px;margin-top:8px;">Fitness &amp; conditioning</div></div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:22px 24px;"><div style="font-family:'Archivo';font-weight:900;font-size:22px;color:#FFCB05;">03</div><div style="font-family:'Archivo';font-weight:700;font-size:17px;margin-top:8px;">Confidence &amp; discipline</div></div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:22px 24px;"><div style="font-family:'Archivo';font-weight:900;font-size:22px;color:#FFCB05;">04</div><div style="font-family:'Archivo';font-weight:700;font-size:17px;margin-top:8px;">Game understanding</div></div>
+        <div style="grid-column:span 2;background:#FFCB05;color:#262261;border-radius:14px;padding:22px 24px;display:flex;align-items:center;gap:16px;"><div style="font-family:'Archivo';font-weight:900;font-size:22px;">05</div><div style="font-family:'Archivo';font-weight:800;font-size:17px;">Clear progression milestones — tracked &amp; shared with you</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAMPS -->
+  <div style="padding:72px 52px 64px;">
+    <div style="text-align:center;max-width:52ch;margin:0 auto 42px;">
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#8A6D00;">Camps &amp; short-term programs</div>
+      <h2 style="font-family:'Archivo';font-weight:800;font-size:40px;line-height:1.05;letter-spacing:-0.02em;margin:14px 0 0;">Ways to get started</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;">
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;">
+        <div style="position:relative;aspect-ratio:16/10;"><image-slot id="camp-1" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/camps.jpg" placeholder="Annual camp"></image-slot></div>
+        <div style="padding:26px 28px 30px;flex:1;">
+          <div style="display:inline-block;background:#E7E6F2;color:#262261;font-weight:600;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px;">Year-round</div>
+          <h3 style="font-family:'Archivo';font-weight:800;font-size:22px;margin:14px 0 0;">Annual Sports Camp</h3>
+          <p style="font-size:15px;line-height:1.6;color:#5A5870;margin:8px 0 0;">Long-duration training built for sustained, season-over-season improvement.</p>
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;">
+        <div style="position:relative;aspect-ratio:16/10;"><image-slot id="camp-2" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/sportsskill.jpg" placeholder="Summer camp"></image-slot></div>
+        <div style="padding:26px 28px 30px;flex:1;">
+          <div style="display:inline-block;background:#FFF3C4;color:#8A6D00;font-weight:600;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px;">Holidays</div>
+          <h3 style="font-family:'Archivo';font-weight:800;font-size:22px;margin:14px 0 0;">Summer Sports Camp</h3>
+          <p style="font-size:15px;line-height:1.6;color:#5A5870;margin:8px 0 0;">Intensive holiday coaching focused on skills, fitness and fun.</p>
+        </div>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(38,34,97,0.1);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;">
+        <div style="position:relative;aspect-ratio:16/10;"><image-slot id="camp-3" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/about-us.jpg" placeholder="Little athletes"></image-slot></div>
+        <div style="padding:26px 28px 30px;flex:1;">
+          <div style="display:inline-block;background:#E7E6F2;color:#262261;font-weight:600;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px;">Ages 3–5</div>
+          <h3 style="font-family:'Archivo';font-weight:800;font-size:22px;margin:14px 0 0;">Little Athletes</h3>
+          <p style="font-size:15px;line-height:1.6;color:#5A5870;margin:8px 0 0;">Movement, balance, agility and joyful early learning through play.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA BAND -->
+  <div style="position:relative;margin:0 52px 72px;border-radius:22px;overflow:hidden;">
+    <div style="position:absolute;inset:0;"><image-slot id="cc-cta" shape="rect" fit="cover" src="https://sportingedge.aretha.in/images/home/sportscoach.jpg" placeholder="CTA background"></image-slot></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(38,34,97,0.95),rgba(38,34,97,0.7));pointer-events:none;"></div>
+    <div style="position:relative;padding:56px 52px;display:flex;align-items:center;justify-content:space-between;gap:36px;flex-wrap:wrap;">
+      <div>
+        <h3 style="font-family:'Archivo';font-weight:800;font-size:34px;line-height:1.08;color:#fff;margin:0;max-width:26ch;">From first practice to lifelong excellence — we build confidence on and off the court.</h3>
+      </div>
+      <span style="background:#FFCB05;color:#262261;font-family:'Archivo';font-weight:700;font-size:17px;padding:17px 34px;border-radius:11px;white-space:nowrap;">Enroll Your Child →</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#17143B;color:rgba(255,255,255,0.7);padding:52px 52px 40px;">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,0.12);">
+      <div>
+        <div style="background:#fff;border-radius:9px;padding:8px 12px;display:inline-flex;margin-bottom:16px;"><img src="assets/sporting-edge-logo.png" style="height:30px;display:block;" alt="logo" /></div>
+        <p style="font-size:14px;line-height:1.6;max-width:36ch;margin:0;">Vidyaniketan Public School, Ullal Main Road, Jnananjyothinagar, Bengaluru — 560 056</p>
+      </div>
+      <div>
+        <div style="font-family:'Archivo';font-weight:700;font-size:15px;color:#fff;margin-bottom:14px;">Quick Links</div>
+        <div style="display:flex;flex-direction:column;gap:9px;font-size:14px;"><span>About Us</span><span>Programs for Schools</span><span>Why Choose Us</span><span>Gallery</span></div>
+      </div>
+      <div>
+        <div style="font-family:'Archivo';font-weight:700;font-size:15px;color:#fff;margin-bottom:14px;">Get in Touch</div>
+        <div style="display:flex;flex-direction:column;gap:9px;font-size:14px;"><span>+91 91087 56369</span><span>+91 63603 94326</span><span>info@sportingedge.in</span></div>
+      </div>
+    </div>
+    <div style="padding-top:22px;font-size:13px;color:rgba(255,255,255,0.45);">Copyright © 2026 Sporting Edge. All Rights Reserved.</div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>
