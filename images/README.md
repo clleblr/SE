@@ -54,6 +54,9 @@ Each photo was resized to ~1700px wide and compressed for fast loading.
 - `why-gallery-1.jpg` — trophies row (Tournament Victories)
 - `why-gallery-2.jpg` — trophies display
 
+### Contact
+- `contact.jpg` — top banner behind the "Let's find the right pathway" heading
+
 ### Logo
 - `logo.png` — the Sporting Edge logo (real)
 
