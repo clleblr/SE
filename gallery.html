@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — Sporting Edge</title>
+  <meta name="description" content="Photos and videos from Sporting Edge — our courts, fields and camps. Browse moments from training, matches and camps across our programs.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gallery — Life at Sporting Edge">
+  <meta property="og:description" content="Photos and videos from our courts, fields and camps.">
+  <meta property="og:image" content="assets/sporting-edge-logo.png">
+  <link rel="icon" href="assets/sporting-edge-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="gallery">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Sporting Edge home"><img src="assets/sporting-edge-logo.png" alt="Sporting Edge"></a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a class="nav-link" data-nav="about" href="about.html">About</a></li>
+          <li class="has-dropdown">
+            <a class="nav-link" data-nav="whatwedo" href="coaching-and-camps.html" aria-haspopup="true">What We Do ▾</a>
+            <ul class="dropdown">
+              <li><a href="coaching-and-camps.html">Coaching &amp; Camps</a></li>
+              <li><a href="programs-for-schools.html">Programs for Schools</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" data-nav="programs" href="flagship-programs.html">Programs</a></li>
+          <li><a class="nav-link" data-nav="why" href="why-choose-us.html">Why Us</a></li>
+          <li><a class="nav-link" data-nav="gallery" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-cta" href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main id="main">
+
+      <!-- HEADER COPY -->
+      <section class="section" style="padding-bottom:clamp(24px,3vw,32px);">
+        <span class="eyebrow">Life at Sporting Edge</span>
+        <h1 style="font-family:'Archivo',sans-serif;font-weight:800;font-size:clamp(38px,6vw,60px);line-height:1.02;letter-spacing:-0.02em;color:var(--edge-navy);margin:14px 0 0;">Gallery</h1>
+        <p class="prose" style="margin-top:14px;max-width:52ch;">Photos and videos from our courts, fields and camps. Tap any tile to view.</p>
+      </section>
+
+      <!-- MASONRY GRID (populated by js/main.js) -->
+      <section class="section" style="padding-top:0;">
+        <div class="gallery-masonry" id="gallery-grid" aria-label="Photo and video gallery"></div>
+      </section>
+
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer" aria-hidden="true">
+      <button class="lightbox-close" type="button" id="lightbox-close" aria-label="Close viewer">×</button>
+      <div class="lightbox-inner" id="lightbox-content"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html"><img src="assets/sporting-edge-logo.png" alt="Sporting Edge"></a>
+          <p>Vidyaniketan Public School, Ullal Main Road, Jnananjyothinagar, Bengaluru — 560 056</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="coaching-and-camps.html">Coaching &amp; Camps</a></li>
+            <li><a href="programs-for-schools.html">Programs for Schools</a></li>
+            <li><a href="flagship-programs.html">Flagship Programs</a></li>
+            <li><a href="why-choose-us.html">Why Choose Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Get in Touch</h3>
+          <ul>
+            <li><a href="tel:+919108756369">+91 91087 56369</a></li>
+            <li><a href="tel:+916360394326">+91 63603 94326</a></li>
+            <li><a href="mailto:info@sportingedge.in">info@sportingedge.in</a></li>
+          </ul>
+          <div class="footer-social">
+            <a href="https://facebook.com/sportingedgeindia" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://instagram.com/sportingedgeindia" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">© 2026 Sporting Edge. All Rights Reserved.</div>
+    </footer>
+
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
